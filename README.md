@@ -15,7 +15,7 @@ export const apiKey = {api_key};
 export const userId = {user_id};
 ```
 
-# Start
-`yarn start`
+# Run locally
+`yarn start` to run in dev mode
 
-`yarn test`
+`yarn test --watchAll` or `yarn test-coverage` to launch tests

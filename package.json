@@ -27,6 +27,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test-coverage": "react-scripts test --coverage --watchAll",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -46,7 +47,10 @@
   },
   "jest": {
     "collectCoverageFrom": [
-      "src/**/*.{js,jsx,ts,tsx}"
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!src/setupProxy.js",
+      "!src/react-app-env.d.ts",
+      "!src/index.tsx"
     ],
     "moduleNameMapper": {
       "axios": "axios/dist/node/axios.cjs"
