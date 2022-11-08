@@ -1,22 +1,21 @@
-# cra-template-tailwindcss-typescript
+# About
+Simple shopping page. (technical test)
 
-A streamlined [Tailwind CSS v3.1](https://tailwindcss.com) template for [Create React App](https://github.com/facebook/create-react-app) in [TypeScript](https://www.typescriptlang.org/).
+# Configure
+Install packages :
+```js
+yarn install
+```
+Add `config.js` in `\src\` with these lines and replace variables with your config
 
-> This template installs and sets up [Tailwind CSS](https://tailwindcss.com) with TypeScript support.
 
-## Usage
-
-```bash
-npx create-react-app --template tailwindcss-typescript
+```js
+export const apiUrl = {api_url};
+export const apiKey = {api_key};
+export const userId = {user_id};
 ```
 
-## Credits
+# Start
+`yarn start`
 
-This project was made possible thanks to the following projects.
-
-1. [GeoffSelby/cra-template-tailwindcss](https://github.com/GeoffSelby/cra-template-tailwindcss) - A streamlined Tailwind CSS template for Create React App (in JavaScript).
-2. [cra-template-typescript](https://github.com/facebook/create-react-app/tree/master/packages/cra-template-typescript) - An official TypeScript template for create-react-app.
-
-## License
-
-MIT © [Sung M. Kim](https://sung.codes)
+`yarn test`

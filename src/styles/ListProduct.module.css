@@ -1,0 +1,13 @@
+.productsContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 35vh;
+  grid-auto-flow: dense;
+  grid-gap: 20px;
+}
+.productsContainer :nth-child(0n + 5),
+.productsContainer :nth-child(0n + 6),
+.productsContainer :nth-child(0n + 15),
+.productsContainer :nth-child(0n + 16) {
+  grid-area: span 2 / span 2;
+}

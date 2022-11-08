@@ -1,0 +1,30 @@
+{
+    "editor.inlayHints.enabled": "offUnlessPressed", // Show on Ctrl + Option (mac) / Ctrl + Alt (windows)
+    "editor.inlayHints.fontSize": 12,
+    "editor.inlayHints.padding": true,
+    "typescript.inlayHints.enumMemberValues.enabled": true,
+    "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+    "typescript.inlayHints.variableTypes.enabled": true,
+    "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "workbench.colorCustomizations": {
+        "[Night Owl]": {
+          "activityBar.background": "#000C1D",
+          "activityBar.border": "#102a44",
+          "editorGroup.border": "#102a44",
+          "sideBar.background": "#001122",
+          "sideBar.border": "#102a44",
+          "sideBar.foreground": "#8BADC1"
+        }
+      },
+      "editor.fontLigatures": true,
+      "editor.fontFamily": "Dank Mono, monospace",
+      "editor.fontSize": 19,
+      "editor.lineHeight": 25,
+      "editor.letterSpacing": 0.5,
+      "files.trimTrailingWhitespace": true,
+      "editor.fontWeight": "400",
+      "editor.cursorStyle": "line",
+      "editor.cursorWidth": 5,
+      "editor.cursorBlinking": "solid",
+      "editor.renderWhitespace": "all",
+}
